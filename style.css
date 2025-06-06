@@ -65,7 +65,12 @@ section {
 }
 
 footer {
-  text-align: center; /* Centers the footer text */
-  padding: 5px; /* Adds padding around the footer */
-  background-color: #fff9cf; /* Light yellow color for the footer */
+  text-align: right; /* Centers the footer text */
+  padding: 20px; /* Adds padding around the footer */
+  background-image: url('img/Golden.jpg'); /* Sets the background image for the footer section */
+  background-size: cover; /* Makes the footer background image cover the whole footer */
+  background-position: bottom; /* Positions the footer background image at the bottom */
+  color: #ffffff; /* Sets the text color in the footer to white */
+  font-size: 18px; /* Sets the font size for the footer text */
+  font-family: Azeret Mono, monospace; /* Sets the font for the footer text to Azeret Mono from Google Fonts */
 }

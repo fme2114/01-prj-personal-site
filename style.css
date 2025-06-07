@@ -77,6 +77,7 @@ footer {
 
 #skills {
   text-align: center; /* Centers the content in the skills section */
+  font-family: 'Azeret Mono', monospace; /* Makes the font match the rest of the site */
 }
 
 #skills h2 {
@@ -85,27 +86,27 @@ footer {
   font-family: 'Azeret Mono', monospace; /* Uses the same font as the hero section */
 }
 
-#skills p {
-  font-size: 20px; /* Sets the font size for the paragraph in the skills section */
-  color: #ffffff; /* Makes the paragraph text white */
+#skills span {
+  font-size: 23px; /* Change this number to make the skills paragraph text bigger or smaller */
+  color: #ffffff; 
+  font-weight: bold; 
 }
 
 .skill-icon {
   display: inline-block; /* Makes each skill icon and label stack vertically */
+  width: 120px; /* Sets a fixed width so icons and labels align */
   text-align: center;   /* Centers the icon and label */
-  margin: 0 20px 20px 0; /* Adds space to the right and bottom of each skill */
+  margin: 0 15px 20px 0; /* Adds space to the right and bottom of each skill */
 }
 
 .skill-icon i {
-  font-size: 70px; /* Makes all skill icons bigger */
+  font-size: 90px; /* Makes all skill icons bigger */
   margin-bottom: 8px; /* Adds space between the icon and the label */
 }
 
 .skill-icon span {
   display: block; /* Makes the skill name appear directly below the icon */
   margin-top: 8px; /* Adds a little space between the icon and the text */
-  color:#5c99ba; /* Makes the skill name white */
-  
 }
 
 #about\ me {
@@ -129,6 +130,10 @@ footer {
   margin-top: 10px
 }
 
+#about\ me p {
+  line-height: 1.8; /* Increases space between lines for better readability */
+}
+
 #profile-pic {
   text-align: center; /* Centers the image horizontally */
   margin-top: 30px; /* Adds space above the image */
@@ -143,4 +148,74 @@ footer {
   border: 4px solid #ffffff; /* Adds a light purple border */
 }
 
+#projects {
+  text-align: center; /* Centers the text in the Projects section */
+ 
+}
 
+#projects h2 {
+  font-size: 35px; /* Makes the Projects heading larger */
+  color: #5c99ba; /* Makes the Projects heading blue */
+  font-family: 'Azeret Mono', monospace; /* Uses the same font as the hero section */
+}
+
+.project-icon {
+  display: inline-block; /* Makes each project icon and label stack vertically */
+  width: 180px; /* Sets a fixed width so icons and labels align */
+  text-align: center; /* Centers the icon and label */
+  margin: 0 40px 20px 40px; /* Adds space to the right and bottom of each project */
+  vertical-align: top; /* Aligns all project icons to the top */
+  text-decoration: none; /* Removes underline from project links */
+}
+
+.project-icon i {
+  font-size: 90px; /* Makes the file icons bigger */
+  margin-bottom: 8px; /* Adds space between the icon and the label */
+  height: 80px; /* Sets a fixed height for the icon area so all icons align */
+  display: inline-block; /* Allows height to be applied */
+}
+
+.project-label {
+  display: block; /* Makes the project name appear directly below the icon */
+  margin-top: 8px; /* Adds a little space between the icon and the text */
+  color: #5c99ba; /* Makes the project name text blue */
+  font-family: 'Azeret Mono', monospace; /* Uses the same font as the headings */
+  font-size: 19px; /* Makes the project name text larger */
+}
+
+#contact {
+  text-align: center; /* Centers the content in the Contact Information section */
+  color:#5c99ba
+}
+
+#contact h2 {
+  font-size: 35px; /* Makes the Contact Information heading larger */
+  color: #5c99ba; /* Makes the Contact Information heading blue */
+  font-family: 'Azeret Mono', monospace; /* Uses the same font as the hero section */
+  margin-bottom: 0%;
+
+}
+
+#contact p {
+  font-size: 15px; /* Makes the contact information text larger */
+  color: #5c99ba; /* Keeps the contact information text white */
+  font-family: 'Azeret Mono', monospace; /* Uses the same font as the headings */
+  margin-top: 5px;
+}
+
+.contact-icons {
+  text-align: center; /* Centers the social icons */
+  margin-top: 15px; /* Adds space above the icons */
+}
+
+.contact-icon-link {
+  display: inline-block; /* Keeps icons in a row */
+  margin: 0 15px; /* Adds space between icons */
+  font-size: 35px; /* Makes the icons larger */
+  color: #5c99ba; /* Sets the icon color to match the site */
+  text-decoration: none; /* Removes underline from the icon links */
+}
+
+.contact-icon-link:hover {
+  color: #ffee38; /* Changes icon color on hover for effect */
+}

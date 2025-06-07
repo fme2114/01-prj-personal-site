@@ -9,6 +9,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <!-- Font Awesome for skill icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -31,15 +33,39 @@
     <p>Scroll down to see what I've been up to..</p>
   </section>
 
-  <section id="skills">
-    <h2>Skills</h2>
-    <p>List your skills here.</p>
+  <!-- Profile picture section above About Me -->
+  <section id="profile-pic">
+    <!-- Replace 'img/your-photo.jpg' with the path to your own image file -->
+    <img src="img/Headshot 2.jpg" alt="A photo of Mai" class="profile-img">
   </section>
 
-  <section id="interests">
-    <h2>Interests</h2>
-    <p>Share your interests here.</p>
+  <section id="about me">
+    <h2>About Me</h2>
+    <p>I'm Mai Eckert, a website developer and designer passionate about making the web a more accessible place for all of us. My portfolio showcases work that I'm proud of, and I hope it gives you a look into my mind.</p>
   </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <!-- Add your icons inside the spans below -->
+    <div>
+      <!-- HTML icon and label -->
+      <span class="skill-icon">
+        <i class="fa-brands fa-html5" style="color: #5c99ba;"></i>
+        <span>HTML</span> <!-- Skill name below the icon -->
+      </span>
+      <!-- CSS icon and label -->
+      <span class="skill-icon">
+        <i class="fa-brands fa-css3-alt" style="color:#5c99ba;"></i>
+        <span>CSS</span> <!-- Skill name below the icon -->
+      </span>
+      <!-- JavaScript icon and label -->
+      <span class="skill-icon">
+        <i class="fa-brands fa-js" style="color:#5c99ba;"></i>
+        <span>JavaScript</span> <!-- Skill name below the icon -->
+      </span>
+    </div>
+  </section>
+
 
   <section id="projects">
     <h2>Projects</h2>

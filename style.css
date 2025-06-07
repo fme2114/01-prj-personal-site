@@ -58,7 +58,7 @@ nav a {
   font-size: 25px; /* Changes the size of the star icons */
 }
 
-section {
+section  {
   padding: 20px; /* Adds padding around each section */
   margin: 10px; /* Adds margin around each section */
  
@@ -74,3 +74,73 @@ footer {
   font-size: 18px; /* Sets the font size for the footer text */
   font-family: Azeret Mono, monospace; /* Sets the font for the footer text to Azeret Mono from Google Fonts */
 }
+
+#skills {
+  text-align: center; /* Centers the content in the skills section */
+}
+
+#skills h2 {
+  font-size: 35px; /* Makes the Skills heading larger */
+  color: #5c99ba; /* Makes the Skills heading white */
+  font-family: 'Azeret Mono', monospace; /* Uses the same font as the hero section */
+}
+
+#skills p {
+  font-size: 20px; /* Sets the font size for the paragraph in the skills section */
+  color: #ffffff; /* Makes the paragraph text white */
+}
+
+.skill-icon {
+  display: inline-block; /* Makes each skill icon and label stack vertically */
+  text-align: center;   /* Centers the icon and label */
+  margin: 0 20px 20px 0; /* Adds space to the right and bottom of each skill */
+}
+
+.skill-icon i {
+  font-size: 70px; /* Makes all skill icons bigger */
+  margin-bottom: 8px; /* Adds space between the icon and the label */
+}
+
+.skill-icon span {
+  display: block; /* Makes the skill name appear directly below the icon */
+  margin-top: 8px; /* Adds a little space between the icon and the text */
+  color:#5c99ba; /* Makes the skill name white */
+  
+}
+
+#about\ me {
+  text-align: center; /* Centers the text in the About Me section */
+  border: 5px solid #7fdcdb; /* Adds a light purple border */
+  padding: 10px; /* Adds space inside the border */
+  border-radius: 15px; /* Rounds the corners of the border */
+  margin-bottom: 10px auto; /* Adds space above and below, and centers the box horizontally */
+  margin-left: auto; /* Centers the section horizontally */
+  margin-right: auto; /* Centers the section horizontally */
+  margin-top: 20px; /* Adds space above the section */
+  background: rgba(255,255,255,0.15); /* Adds a subtle background for readability */
+  max-width: 700px; /* Keeps the section from getting too wide */
+  color: #5c99ba; /* Sets the text color to white */
+  font-family: 'Azeret Mono', monospace; /* Uses the same font as the hero section */
+  background-color: #ffffff;
+}
+
+#about\ me h2{
+  font-size: 35px; /* Makes the About Me heading larger */
+  margin-top: 10px
+}
+
+#profile-pic {
+  text-align: center; /* Centers the image horizontally */
+  margin-top: 30px; /* Adds space above the image */
+  margin-bottom: 10px; /* Adds space below the image */
+}
+
+.profile-img {
+  width: 190px; /* Sets the image width */
+  height: 190px; /* Sets the image height */
+  object-fit: cover; /* Ensures the image covers the area */
+  border-radius: 50%; /* Makes the image a circle */
+  border: 4px solid #ffffff; /* Adds a light purple border */
+}
+
+
